@@ -1,0 +1,36 @@
+{
+  "name": "2o3t-utility",
+  "version": "0.0.1",
+  "description": "2o3t.cn --> Utility",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "export Logger=* && node ./test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "2o3t",
+    "zyao89",
+    "utility"
+  ],
+  "author": "Zyao89 <zyao89@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "escape-html": "^1.0.3",
+    "is-type-of": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.7.0",
+    "unescape": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-plugin-html": "^4.0.5"
+  }
+}
