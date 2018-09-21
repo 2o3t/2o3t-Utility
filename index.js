@@ -15,9 +15,16 @@ const file = require('./lib/file');
 
 const Timing = require('./lib/timing');
 
+const lodash = require('lodash');
+const isGlob = require('is-glob');
+const micromatch = require('micromatch');
+
 module.exports = {
+    ...lodash,
     Timing,
     is,
+    isGlob, micromatch,
+
     ...crypto,
     ...array,
     ...date,

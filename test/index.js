@@ -5,6 +5,11 @@ const path = require('path');
 // console.log(utility.MAX_SAFE_INTEGER_STR)
 // console.log(utility.splitAlwaysOptimized())
 
-const files = utility.mapDirsBreadth(path.join(process.cwd(), 'test'), true);
-console.log(files);
+const files = utility.mapDirsFileBreadth(path.join(process.cwd(), 'test'), true);
+console.log(utility.formatJson({
+    a: function bb()  {
+
+    }
+}));
+
 
