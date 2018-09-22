@@ -1,8 +1,8 @@
 /node_modules
-/test
 coverage
 logs
 npm-debug.log
 .vscode
 .DS_Store
 .idea
+test
