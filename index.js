@@ -21,8 +21,9 @@ const micromatch = require('micromatch');
 
 module.exports = {
     ...lodash,
-    Timing,
     is,
+
+    Timing,
     isGlob, micromatch,
 
     ...crypto,
