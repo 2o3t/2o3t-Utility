@@ -1,6 +1,6 @@
 {
     "name": "2o3t-utility",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "2o3t.cn --> Utility, a simple utils.",
     "main": "index.js",
     "files": [
