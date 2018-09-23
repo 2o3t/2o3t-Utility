@@ -1,13 +1,13 @@
 {
     "name": "2o3t-utility",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "2o3t.cn --> Utility, a simple utils.",
     "main": "index.js",
     "files": [
         "lib"
     ],
     "scripts": {
-        "test": "export Logger=* && node ./test",
+        "test": "node ./test",
         "lint": "eslint ."
     },
     "keywords": [
