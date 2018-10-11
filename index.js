@@ -19,9 +19,12 @@ const lodash = require('lodash');
 const isGlob = require('is-glob');
 const micromatch = require('micromatch');
 
+const fs = require('fs-extra');
+
 module.exports = {
     ...lodash,
     is,
+    fs,
 
     Timing,
     isGlob, micromatch,
