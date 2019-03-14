@@ -1,6 +1,6 @@
 {
     "name": "2o3t-utility",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "2o3t.cn --> Utility, a simple utils.",
     "main": "index.js",
     "files": [
@@ -33,7 +33,7 @@
         "co": "^4.6.0",
         "escape-html": "^1.0.3",
         "is-glob": "^4.0.0",
-        "is-type-of": "^1.2.0",
+        "is-type-of": "^1.2.1",
         "lodash": "^4.17.11",
         "micromatch": "^3.1.10",
         "mkdirp": "^0.5.1",
@@ -41,8 +41,7 @@
         "unescape": "^1.0.1"
     },
     "devDependencies": {
-        "eslint": "^5.5.0",
-        "eslint-config-2o3t": "^1.0.0",
-        "eslint-plugin-html": "^4.0.5"
+        "eslint": "^5.9.0",
+        "eslint-config-2o3t": "^1.1.4"
     }
 }
